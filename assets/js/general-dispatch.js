@@ -37,7 +37,7 @@ $(document).ready(function(){
 
   var $hero = $('#hero');
   var $hero2 = $('#hero2');
-  var $h1 = $('#hero h1');
+  var $h1 = $('#hero *');
   // var $hTitle = $('#header-title');
   var $header = $('header');
   var $backToTop = $('#back-to-top');
