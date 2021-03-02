@@ -89,7 +89,7 @@ async function fetchEdits(){
   if (document.domain === "localhost"){
     jsonUrl = '/transtopie/assets/dev/edits.json'
   } else {
-    jsonUrl = '//data.chapelmele.com/edits.json'
+    jsonUrl = '//transtopie.github.io/website/edits.json'
   }
   
     // jsonUrl = '//data.chapelmele.com/edits.json'

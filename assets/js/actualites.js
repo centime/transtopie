@@ -6,7 +6,7 @@ if (document.domain === "localhost"){
   remote = '/transtopie/assets/dev';
 } else {
   env = 'prod';
-  remote = "//data.chapelmele.com";
+  remote = "//transtopie.github.io/website";
 }
   // env = 'prod';
   // remote = "//data.chapelmele.com";

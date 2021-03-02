@@ -412,8 +412,8 @@ try {
 const ghCMSCredentials = {
   ...JSON.parse(localStorage['ghCMSCredentials-' + document.domain]),
   ...{
-    remote: '//data.chapelmele.com',
-    owner: 'chapelmele',
+    remote: '//transtopie.github.io/website',
+    owner: 'transtopie',
     repo: 'website'
   }
 };
