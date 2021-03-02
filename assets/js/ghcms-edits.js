@@ -421,7 +421,7 @@ const ghCMSCredentials = {
 var env, remote;
 if (document.domain === "localhost"){
   env = 'dev';
-  remote = '/assets/js/';
+  remote = '/transtopie/assets/dev/';
 } else {
   env = 'prod';
   remote = "//" + ghCMSCredentials.remote;

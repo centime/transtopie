@@ -3,7 +3,7 @@
 var env, remote;
 if (document.domain === "localhost"){
   env = 'dev';
-  remote = '/assets/dev';
+  remote = '/transtopie/assets/dev';
 } else {
   env = 'prod';
   remote = "//data.chapelmele.com";
