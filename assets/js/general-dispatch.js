@@ -177,10 +177,10 @@ function checkvisible( elm ) {
 function onPage(path){ return (''+window.location).indexOf(path)>0 }
 function editorModeOn(){ return (localStorage['ghCMSEditor-' + document.domain])==="enabled" }
 
-onPage('/actualites/')? $.getScript('/transtopie/assets/js/actualites.js'):
-onPage('/agenda/')? $.getScript('/transtopie/assets/js/agenda.js') + $.getCSS('/transtopie/assets/css/fullCalendar.css'):
-onPage('/admin/')? $.getScript('/transtopie/assets/js/admin.js'):0;
+onPage('/actualites/')? $.getScript('/assets/js/actualites.js'):
+onPage('/agenda/')? $.getScript('/assets/js/agenda.js') + $.getCSS('/assets/css/fullCalendar.css'):
+onPage('/admin/')? $.getScript('/assets/js/admin.js'):0;
 editorModeOn()? 
-	onPage('/actualites/')? $.getModule('/transtopie/assets/js/ghcms-news.js'):
-	onPage('/agenda/')? $.getModule('/transtopie/assets/js/ghcms-events.js'):
-	$.getModule('/transtopie/assets/js/ghcms-edits.js'):0;
+	onPage('/actualites/')? $.getModule('/assets/js/ghcms-news.js'):
+	onPage('/agenda/')? $.getModule('/assets/js/ghcms-events.js'):
+	$.getModule('/assets/js/ghcms-edits.js'):0;
